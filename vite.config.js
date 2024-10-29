@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import purgecss from 'vite-plugin-purgecss';
 
 export default defineConfig({
-  base: '/portafolio/', 
+  base: ' https://giovanni00000.github.io/portafolio/', 
   plugins: [purgecss()],
   css: {
     preprocessorOptions: {
