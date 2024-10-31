@@ -28,8 +28,13 @@ jobs:
           cache: 'npm'
       - name: Install Dependencies
         run: npm install
+      
+      # Nueva sección para instalar Vite globalmente
+      - name: Install Vite Globally
+        run: npm install -g vite
+      
       - name: Build
-        run: npm run build
+        run: vite build
       - name: Setup de Github Pages
         uses: actions/configure-pages@v5
       - name: Upload Dist Folder to Pages
