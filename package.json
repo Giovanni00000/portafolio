@@ -7,16 +7,16 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "main -d dist"
   },
   "devDependencies": {
     "gh-pages": "^6.2.0",
     "less": "^4.2.0",
-    "vite": "^5.4.8"
+    "vite": "^5.4.8",
+    "vite-plugin-purgecss": "^0.2.12"
   },
   "dependencies": {
-    "less-loader": "^12.2.0",
-    "vite-plugin-purgecss": "^0.2.12"
+    "less-loader": "^12.2.0"
   }
 }
